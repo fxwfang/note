@@ -6,17 +6,17 @@
 
 ### 同步阻塞
 
-![深度截图_选择区域_20180328221507](/home/fxw/Desktop/深度截图_选择区域_20180328221507.png)
+![20180328221507](https://github.com/fxwfang/note/tree/master/nginx/image/20180328221507.png)
 
 
 
 ### 同步非阻塞
 
-![深度截图_选择区域_20180328225314](/home/fxw/Desktop/深度截图_选择区域_20180328225314.png)
+![20180328225314](https://github.com/fxwfang/note/tree/master/nginx/image/20180328225314.png)
 
 ### IO复用(多路IO就绪通知)
 
-![深度截图_选择区域_20180328225845](/home/fxw/Desktop/深度截图_选择区域_20180328225845.png)
+![20180328225845](https://github.com/fxwfang/note/tree/master/nginx/image/20180328225845.png)
 
 IO复用的主要实现方式有: select poll 和 epoll
 
@@ -26,11 +26,11 @@ IO复用的主要实现方式有: select poll 和 epoll
 
 ### 信号驱动
 
-![深度截图_选择区域_20180328230645](/home/fxw/Desktop/深度截图_选择区域_20180328230645.png)
+![20180328230645](https://github.com/fxwfang/note/tree/master/nginx/image/20180328230645.png)
 
 ### 异步非阻塞
 
-![深度截图_选择区域_20180328230811](/home/fxw/Desktop/深度截图_选择区域_20180328230811.png)
+![20180328230811](https://github.com/fxwfang/note/tree/master/nginx/image/20180328230811.png)
 
 
 
