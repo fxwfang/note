@@ -6,8 +6,8 @@
 
 ### 同步阻塞
 
-![20180328221507](https://github.com/fxwfang/note/tree/master/nginx/image/20180328221507.png)
-
+//![20180328221507](https://github.com/fxwfang/note/tree/master/nginx/image/20180328221507.png)
+https://github.com/fxwfang/note/blob/master/nginx/image/20180328221507.png
 
 
 ### 同步非阻塞
