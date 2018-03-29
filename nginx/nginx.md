@@ -12,11 +12,11 @@
 
 ### 同步非阻塞
 
-![20180328225314](https://github.com/fxwfang/note/tree/master/nginx/image/20180328225314.png)
+![20180328225314](https://github.com/fxwfang/note/blob/master/nginx/image/20180328225314.png)
 
 ### IO复用(多路IO就绪通知)
 
-![20180328225845](https://github.com/fxwfang/note/tree/master/nginx/image/20180328225845.png)
+![20180328225845](https://github.com/fxwfang/note/blob/master/nginx/image/20180328225845.png)
 
 IO复用的主要实现方式有: select poll 和 epoll
 
@@ -26,11 +26,11 @@ IO复用的主要实现方式有: select poll 和 epoll
 
 ### 信号驱动
 
-![20180328230645](https://github.com/fxwfang/note/tree/master/nginx/image/20180328230645.png)
+![20180328230645](https://github.com/fxwfang/note/blob/master/nginx/image/20180328230645.png)
 
 ### 异步非阻塞
 
-![20180328230811](https://github.com/fxwfang/note/tree/master/nginx/image/20180328230811.png)
+![20180328230811](https://github.com/fxwfang/note/blob/master/nginx/image/20180328230811.png)
 
 
 
@@ -38,7 +38,7 @@ IO复用的主要实现方式有: select poll 和 epoll
 
 
 
-1.  BIO
+1. BIO
 2. NIO
 3. AIO
 
