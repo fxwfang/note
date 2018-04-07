@@ -51,6 +51,9 @@ META系列组合键用来操作"由语言定义的基本单位(比如:词,句子
 #### 多窗格
 
 ```
+C-x 2 : 上下分屏
+C-x 3 : 左右分屏
+
 C-x 1 :只保留一个窗格
 C-x 0 :关闭本窗口
 C-M-v :滚动下方窗口
@@ -116,6 +119,72 @@ C-s :向前搜索
 C-r :向后搜索
 ```
 
+
+
+---
+
+### org-mode
+
+#### 进入Org模式
+
+```
+M-x org-mode
+```
+
+#### 标题设定
+
+```
+语法: START KEYWORD PRIORITY TITLE TAGS
+
+*START 		即星号
+*KEYWORD 	TODO关词
+*PRIORITY 	优先集选项
+*TITLE 		实际的标题文本
+*TAGS 		标签
+例如:
+** TODO [#2] 优先级为2的待办事项 :@家庭作业:
+
+```
+
+
+
+#### 管理待办任务
+
+```
+C-c C-t :设置或改变当前标题的TODO状态
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+参考:
+
+Emacs月月积累（终结篇）：熟练使用org-mode管理日常事务
+
+https://blog.csdn.net/u014801157/article/details/24372485
+
+
+
 ----
 
 Elisp : https://learnxinyminutes.com/docs/elisp/
@@ -158,11 +227,7 @@ C-x m : 查看开启的模式
 
 (scroll-bar-mode  -1) : turn off scrollbar
 
-(electric-indent-mode -1) : 
-
-
-
-
+(electric-indent-mode -1
 
 company mode:
 
