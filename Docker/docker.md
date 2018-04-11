@@ -48,21 +48,29 @@ docker rmi  :删除镜像
 
 
 
-docker run 
+#### Docker run
 
-​	-it
+```
+docker run [options] image [command] [arg...]
+	-d, --detach=false       指定容器运行于前台还是后台，默认为false 
+	-i, --interactive=false  以交互式模式运行容器,并返回容器的ID
+	-t, --tty=false 		 分配tty设备，该可以支持终端登录，默认为false
+	-p, --publish=[]         指定容器暴露的端口 
+	-P, --publish-all=false  指定容器暴露的端口
+	-v, --volume=[]          给容器挂载存储卷，挂载到容器的某个目录 	
+	-e, --env=[]             指定环境变量，容器中可以使用该环境变量
+	--name=""                指定容器名字，后续可以通过名字进行容器管理
+	--restart="no"           指定容器停止后的重启策略:  
+                                no：容器退出时不重启    
+                                on-failure：容器故障退出（返回值非零）时重启   
+                                always：容器退出时总是重启
+	--rm=false               指定容器停止后自动删除容器(不支持以docker run -d启动的容器) 
+例子:
 
-​	-d
 
-​	-p
-
-​	-P
-
-​	--name
-
-​	-v	
-
-​	-e
+参考:
+https://blog.csdn.net/kunloz520/article/details/53839237
+```
 
 
 
