@@ -1,0 +1,332 @@
+* *****找工作*****
+** TODO 简历
+*** TODO 项目经验
+**** TODO JAVA相关
+***** TODO 淘淘商城(SSM+分布式)
+***** TODO OA项目
+**** TODO Golang相关
+***** TODO golang123: https://github.com/fxwfang/golang123
+** TODO 面试准备
+**** 基础面试题
+***** TODO 基础知识整理https://github.com/CyC2018/Interview-Notebook
+****** DONE 网络
+******* DONE 计算机网络
+******* DONE HTTP
+****** TODO 操作系统
+****** TODO 算法
+******* TODO 栈和队列
+******** DONE 栈 数组实现
+#+BEGIN_SRC java 
+public interface MyStack<Item> extends Iterable<Item> {
+    MyStack<Item> push(Item item);
+
+    Item pop() throws Exception;
+
+    boolean isEmpty();
+
+    int size();
+}
+public class ArrayStack<Item> implements MyStack<Item> {
+    // 栈元素数组，只能通过转型来创建泛型数组
+    private Item[] a = (Item[]) new Object[1];
+    // 元素数量
+    private int N = 0;
+
+    @Override
+    public MyStack<Item> push(Item item) {
+        check();
+        a[N++] = item;
+        return this;
+    }
+
+    @Override
+    public Item pop() throws Exception {
+        if (isEmpty())
+            throw new Exception("stack is empty");
+
+        Item item = a[--N];
+        check();
+        a[N] = null; // 避免对象游离
+        return item;
+    }
+
+    private void check() {
+        if (N >= a.length)
+            resize(2 * a.length);
+        else if (N > 0 && N <= a.length / 4)
+            resize(a.length / 2);
+    }
+
+    /**
+     * 调整数组大小，使得栈具有伸缩性
+     */
+    private void resize(int size) {
+        Item[] tmp = (Item[]) new Object[size];
+        for (int i = 0; i < N; i++)
+            tmp[i] = a[i];
+        a = tmp;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return N == 0;
+    }
+
+    @Override
+    public int size() {
+        return N;
+    }
+
+    @Override
+    public Iterator<Item> iterator() {
+        // 返回逆序遍历的迭代器
+        return new Iterator<Item>() {
+            private int i = N;
+
+            @Override
+            public boolean hasNext() {
+                return i > 0;
+            }
+
+            @Override
+            public Item next() {
+                return a[--i];
+            }
+        };
+    }
+    }
+
+#+END_SRC
+******** DONE 栈 链表实现
+#+BEGIN_SRC java
+public class ListStack<Item> implements MyStack<Item> {
+    private Node top = null;
+    private int N = 0;
+
+    private class Node {
+        Item item;
+        Node next;
+    }
+
+    @Override
+    public MyStack<Item> push(Item item) {
+        Node newTop = new Node();
+        newTop.item = item;
+        newTop.next = top;
+        top = newTop;
+        N++;
+        return this;
+    }
+
+    @Override
+    public Item pop() throws Exception {
+        if (isEmpty())
+            throw new Exception("stack is empty");
+        Item item = top.item;
+        top = top.next;
+        N--;
+        return item;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return N == 0;
+    }
+
+    @Override
+    public int size() {
+        return N;
+    }
+
+    @Override
+    public Iterator<Item> iterator() {
+        return new Iterator<Item>() {
+            private Node cur = top;
+
+            @Override
+            public boolean hasNext() {
+                return cur != null;
+            }
+
+            @Override
+            public Item next() {
+                Item item = cur.item;
+                cur = cur.next;
+                return item;
+            }
+        };
+    }
+}
+
+#+END_SRC
+******* TODO 排序
+#+BEGIN_SRC java
+public abstract class Sort<T extends Comparable<T>> {
+
+    public abstract void sort(T[] nums);
+
+    protected boolean less(T v, T w) {
+        return v.compareTo(w) < 0;
+    }
+
+    protected void swap(T[] a, int i, int j) {
+        T t = a[i];
+        a[i] = a[j];
+        a[j] = t;
+    }
+}
+
+#+END_SRC
+******** DONE 冒泡排序
+#+BEGIN_SRC java 
+public class Bubble<T extends Comparable<T>> extends Sort<T> {
+    @Override
+    public void sort(T[] nums) {
+        int N = nums.length;
+        boolean hasSorted = false;
+        for (int i = 0; i < N && !hasSorted; i++) {
+            hasSorted = true;
+            for (int j = 0; j < N - i - 1; j++) {
+                if (less(nums[j + 1], nums[j])) {
+                    hasSorted = false;
+                    swap(nums, j, j + 1);
+                }
+            }
+        }
+    }
+}
+#+END_SRC
+******** DONE 选择排序
+#+BEGIN_SRC java 
+public class Selection<T extends Comparable<T>> extends Sort<T> {
+    @Override
+    public void sort(T[] nums) {
+        int N = nums.length;
+        for (int i = 0; i < N; i++) {
+            int min = i;
+            for (int j = i + 1; j < N; j++)
+                if (less(nums[j], nums[min]))
+                    min = j;
+            swap(nums, i, min);
+        }
+    }
+}
+
+
+#+END_SRC
+******** DONE 插入排序
+#+BEGIN_SRC java
+public class Insertion<T extends Comparable<T>> extends Sort<T> {
+    @Override
+    public void sort(T[] nums) {
+        int N = nums.length;
+        for (int i = 1; i < N; i++)
+            for (int j = i; j > 0 && less(nums[j], nums[j - 1]); j--)
+                swap(nums, j, j - 1);
+    }
+}
+
+#+END_SRC
+******** TODO 希尔排序
+******** TODO 归并排序 (自顶向下归并排序 自低向上归并排序)
+******** TODO 快速排序
+******** TODO 堆排序
+******* TODO 查找
+******** TODO 链表实现无序符号表
+******** TODO 二分查找实现有序符号表
+******** TODO 二叉查找树
+******** TODO 2-3查找树
+******** TODO 红黑树
+******** TODO 散列表
+
+****** TODO 面向对ONE 简单工厂模式
+******** DONE 工厂方法模式
+******** DONE 抽象工厂模式
+******* TODO 面向对象思想
+****** TODO 数据库
+******* DONE 数据库系统原理
+******* DONE MySQL
+******** explain的使用
+******* DONE SQL(视图 存储过程 游标 触发器 权限管理 没看完)
+******* TODO Redis
+****** TODO Java
+******* DONE JVM(粗略浏览)
+******* DONE Java基础
+******* TODO Java容器
+******* TODO JDK中的设计模式
+******* TODO Java并发
+******* TODO Java教程 https://www.javatpoint.com/java-tutorial
+******* TODO Java IO
+****** TODO 分布式
+******* DONE 分布式基础
+******* TODO 一致性协议
+******* TODO 分布式问题分析
+****** TODO 工具
+****** TODO 编程实践
+
+***** TODO 后端技术架构图谱 https://github.com/xingshaocheng/architect-awesome
+****** TODO 数据结构 
+****** TODO 常用法算
+******* 排序_查找算法
+******** TODO 快速排序
+******** TODO 归并排序
+******** TODO 堆排序
+******** TODO 计数排序
+******** TODO 基数排序
+******** TODO 二分查找
+******** TODO Java中的排序工具
+******* TODO 布隆过滤器
+******* TODO 字符串比较(KMP算法)
+******* TODO 深度优先&广度优先
+******* TODO 贪心算法
+******* TODO 回溯算法
+******* TODO 剪支算法
+******* TODO 动态规划
+******* TODO 朴素贝叶斯
+******* TODO 推荐算法
+******* TODO 最小生成树算法
+******* TODO 最短路径算法
+****** TODO 并发
+******* TODO Java并发
+******* DONE Java多线程
+******* DONE Java线程安全
+****** TODO 操作系统
+****** TODO 设计模式
+******* DONE 设计模式的六大原则(开闭原则 里氏置换原则 依赖倒转原则 接口隔离原则 迪米特法则 合成复用原则)
+******* TODO 23种常见设计模式
+******** TODO 设计模式
+******** TODO 23种设计模式全解析（简单工厂 工厂方法模式 单例模式）
+#+BEGIN_SRC java 简单工厂
+
+
+#+END_SRC
+******** TODO 应用场景
+****** TODO 运维 & 统计 & 技术支持
+******* TODO Docker技术
+****** TODO 中间间
+****** TODO 网络
+****** TODO 数据库
+****** TODO 搜索引擎
+****** TODO 性能
+****** TODO 大数据
+****** TODO 安全
+****** TODO 常用开源框架
+****** TODO 分布式设计
+****** TODO 设计思想 & 开发模式
+****** TODO 项目管理
+       
+* ***** 书籍阅读 ******
+** 网络
+*** 计算机网络 谢希仁
+** 操作系统
+*** 鸟哥的Linux私房菜
+*** 深入计算机系统
+** 算法
+*** 算法 第四版
+** 设计模式
+*** Head First 设计模式
+
+
+
+
+       
