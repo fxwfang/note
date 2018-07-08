@@ -1,4 +1,4 @@
-#                                  高并发学习
+#                                  并发编程
 
 1. 如果有5个步骤的程序，每个步骤消耗100个时间单位。假设步骤2和步骤5可以完全并行，并且你有无穷多个处理器。那么根据Amdahl加速比是多少?
 
@@ -161,7 +161,49 @@
 
 
 
+### Executor框架
 
+```
+
+异步执行框架
+支持多种不同的任务执行策略
+任务的提交和执行过程解藕
+基于生产者-消费者模式，其提交任务的线程相当于生产者，执行任务的线程相单于消费者，并用Runnable来表示任务
+对生命周期的支持 统计信息收集 应用程序管理机制 性能监视等机制
+
+Executor
+ExecutorService
+AbstractExecutorService
+ScheduledExecutorService
+ScheduledThreadPoolExecutor
+ThreadPoolExecutor
+
+
+
+参考资料：
+https://www.cnblogs.com/MOBIN/p/5436482.html
+
+
+
+
+```
+
+
+
+### 阻塞队列LinkedBlockingQueue与ArrayBlockingQueue
+
+```
+阻塞添加
+阻塞删除
+重入锁ReenterLock 和 Condition条件
+
+
+
+
+参考资料：
+https://blog.csdn.net/javazejian/article/details/77410889?locationNum=1&fps=1
+
+```
 
 
 

@@ -1,14 +1,11 @@
-* *****找工作*****
-** TODO 简历
+
+* ***** 技术路线图 *****
+** TODO 项目
 *** TODO 项目经验
 **** TODO JAVA相关
-***** TODO 淘淘商城(SpringMVC & Spring & MyBatis )
-****** TODO 怎么去把握一个项目？记住每一个细节？
-****** TODO 哪里是项目的难点？
-***** TODO OA项目
-**** TODO Golang相关
-***** TODO golang123: https://github.com/fxwfang/golang123
-** TODO 面试准备
+***** TODO 淘淘商城(SpringMVC & Spring & MyBatis & 分布式 )
+****** TODO 项目的核心是哪里？ 
+** TODO 技术
 **** 基础面试题
 ***** TODO 基础知识整理https://github.com/CyC2018/Interview-Notebook
 ****** DONE 网络
@@ -18,217 +15,11 @@
 ****** TODO 算法
 ******* TODO 栈和队列
 ******** DONE 栈 数组实现
-#+BEGIN_SRC java 
-public interface MyStack<Item> extends Iterable<Item> {
-    MyStack<Item> push(Item item);
-
-    Item pop() throws Exception;
-
-    boolean isEmpty();
-
-    int size();
-}
-public class ArrayStack<Item> implements MyStack<Item> {
-    // 栈元素数组，只能通过转型来创建泛型数组
-    private Item[] a = (Item[]) new Object[1];
-    // 元素数量
-    private int N = 0;
-
-    @Override
-    public MyStack<Item> push(Item item) {
-        check();
-        a[N++] = item;
-        return this;
-    }
-
-    @Override
-    public Item pop() throws Exception {
-        if (isEmpty())
-            throw new Exception("stack is empty");
-
-        Item item = a[--N];
-        check();
-        a[N] = null; // 避免对象游离
-        return item;
-    }
-
-    private void check() {
-        if (N >= a.length)
-            resize(2 * a.length);
-        else if (N > 0 && N <= a.length / 4)
-            resize(a.length / 2);
-    }
-
-    /**
-     * 调整数组大小，使得栈具有伸缩性
-     */
-    private void resize(int size) {
-        Item[] tmp = (Item[]) new Object[size];
-        for (int i = 0; i < N; i++)
-            tmp[i] = a[i];
-        a = tmp;
-    }
-
-    @Override
-    public boolean isEmpty() {
-        return N == 0;
-    }
-
-    @Override
-    public int size() {
-        return N;
-    }
-
-    @Override
-    public Iterator<Item> iterator() {
-        // 返回逆序遍历的迭代器
-        return new Iterator<Item>() {
-            private int i = N;
-
-            @Override
-            public boolean hasNext() {
-                return i > 0;
-            }
-
-            @Override
-            public Item next() {
-                return a[--i];
-            }
-        };
-    }
-    }
-
-#+END_SRC
 ******** DONE 栈 链表实现
-#+BEGIN_SRC java
-public class ListStack<Item> implements MyStack<Item> {
-    private Node top = null;
-    private int N = 0;
-
-    private class Node {
-        Item item;
-        Node next;
-    }
-
-    @Override
-    public MyStack<Item> push(Item item) {
-        Node newTop = new Node();
-        newTop.item = item;
-        newTop.next = top;
-        top = newTop;
-        N++;
-        return this;
-    }
-
-    @Override
-    public Item pop() throws Exception {
-        if (isEmpty())
-            throw new Exception("stack is empty");
-        Item item = top.item;
-        top = top.next;
-        N--;
-        return item;
-    }
-
-    @Override
-    public boolean isEmpty() {
-        return N == 0;
-    }
-
-    @Override
-    public int size() {
-        return N;
-    }
-
-    @Override
-    public Iterator<Item> iterator() {
-        return new Iterator<Item>() {
-            private Node cur = top;
-
-            @Override
-            public boolean hasNext() {
-                return cur != null;
-            }
-
-            @Override
-            public Item next() {
-                Item item = cur.item;
-                cur = cur.next;
-                return item;
-            }
-        };
-    }
-}
-
-#+END_SRC
 ******* TODO 排序
-#+BEGIN_SRC java
-public abstract class Sort<T extends Comparable<T>> {
-
-    public abstract void sort(T[] nums);
-
-    protected boolean less(T v, T w) {
-        return v.compareTo(w) < 0;
-    }
-
-    protected void swap(T[] a, int i, int j) {
-        T t = a[i];
-        a[i] = a[j];
-        a[j] = t;
-    }
-}
-
-#+END_SRC
 ******** DONE 冒泡排序
-#+BEGIN_SRC java 
-public class Bubble<T extends Comparable<T>> extends Sort<T> {
-    @Override
-    public void sort(T[] nums) {
-        int N = nums.length;
-        boolean hasSorted = false;
-        for (int i = 0; i < N && !hasSorted; i++) {
-            hasSorted = true;
-            for (int j = 0; j < N - i - 1; j++) {
-                if (less(nums[j + 1], nums[j])) {
-                    hasSorted = false;
-                    swap(nums, j, j + 1);
-                }
-            }
-        }
-    }
-}
-#+END_SRC
 ******** DONE 选择排序
-#+BEGIN_SRC java 
-public class Selection<T extends Comparable<T>> extends Sort<T> {
-    @Override
-    public void sort(T[] nums) {
-        int N = nums.length;
-        for (int i = 0; i < N; i++) {
-            int min = i;
-            for (int j = i + 1; j < N; j++)
-                if (less(nums[j], nums[min]))
-                    min = j;
-            swap(nums, i, min);
-        }
-    }
-}
-
-
-#+END_SRC
 ******** DONE 插入排序
-#+BEGIN_SRC java
-public class Insertion<T extends Comparable<T>> extends Sort<T> {
-    @Override
-    public void sort(T[] nums) {
-        int N = nums.length;
-        for (int i = 1; i < N; i++)
-            for (int j = i; j > 0 && less(nums[j], nums[j - 1]); j--)
-                swap(nums, j, j - 1);
-    }
-}
-
-#+END_SRC
 ******** TODO 希尔排序
 ******** TODO 归并排序 (自顶向下归并排序 自低向上归并排序)
 ******** TODO 快速排序
@@ -282,7 +73,7 @@ Extra: 解决查询的一些额外信息
 ******* DONE SQL(视图 存储过程 游标 触发器 权限管理 没看完)
 ******* TODO Redis
 ****** TODO Java
-******* DONE JVM(粗略浏览)
+******* DONE JVM
 ******* DONE Java基础
 ******* TODO Java容器
 ******* TODO JDK中的设计模式
@@ -301,10 +92,7 @@ Extra: 解决查询的一些额外信息
 ****** TODO 常用法算
 ******* 排序_查找算法
 ******** TODO 快速排序
-#+BEGIN_SRC java
-
-
-#+END_SRC
+#+BEGIN
 ******** TODO 归并排序
 ******** TODO 堆排序
 ******** TODO 计数排序
@@ -371,37 +159,9 @@ https://www.cnblogs.com/vincentzh/p/5988145.html
 
 #+END_SRC
 ******** TODO 中介者模式(Mediator)
-#+BEGIN_SRC java
-
-
-#+END_SRC
-#+BEGIN_SRC java
-//意图： 集中相关对象之间复杂的沟通和控制方式.
-//Mediator : 中介者,定义一个接口用于与各同事对象通信.
-//Collegue : 同事,相关对象
-
-
-
-#+END_SRC
-******** TODO 观察者模式(Observer)
-#+BEGIN_SRC java 
-//定义对象之间的一对多依赖,当一个对象状态改变时,它的所有依赖都会收到通知并且自动更新状态.
-//主题(Subject):被观察的对象(一的一方),具有注册和移除观察者,并通知所有注册者的功能,通过维护一张列表来实现一系列操作.
-
-//观察者(Observer) : 观察者(多的一方),注册需要调用主题的registerObserver()方法.
-
-
-
-
-#+END_SRC
+******** DONE 观察者模式(Observer)
 ******** TODO 策略模式(Strategy)
-#+BEGIN_SRC 
-
-#+END_SRC
 ******** TODO 模板方法(Template Method)
-#+BEGIN_SRC 
-
-#+END_SRC
 ******** TODO 适配器模式(Adapter)
 ******** TODO 桥接模式
 ******** TODO 装饰者模式
@@ -419,9 +179,9 @@ https://www.cnblogs.com/vincentzh/p/5988145.html
 ****** TODO 设计思想 & 开发模式
 ****** TODO 项目管理
        
-* ***** 书籍阅读 ******
+* ***** 书籍阅读 *****
 ** 深入计算机系统
-*** TODO 计算机系统漫游
+*** DONE 计算机系统漫游
 *** TODO 信息的表示和处理
 *** TODO 程序的程序级表示
 *** TODO 处理器的体系结构
@@ -433,19 +193,29 @@ https://www.cnblogs.com/vincentzh/p/5988145.html
 *** TODO 系统级I/O
 *** TODO 网络编程
 *** TODO 并发编程
+** 编程珠玑
+*** DONE 开篇(位图排序)
+*** TODO 啊哈！算法
+*** TODO 数据决定程序结构
+*** TODO 编写正确的程序
+*** TODO 编程小事
+*** TODO 程序性能分析
+*** TODO 粗略估算
+*** TODO 算法设计技术
+*** TODO 代码调优
+*** TODO 节省空间
+*** TODO 排序
+*** TODO 取样问题
+*** TODO 搜索
+*** TODO 堆
+*** TODO 字符串
 * ***** 视频教程 *****
 ** 马哥Linux视频教程
 *** Linux初级运维
+**** 基本命令
 *** Linux中级运维
 *** Linux高级运维
-**** Tomcat系列
-#+BEGIN_SRC  java
-
-
-//参考资料
-//1.https://blog.csdn.net/Zerohuan/article/details/50752635
-//2.https://blog.csdn.net/column/details/tomcat8.html
-#+END_SRC
+**** DONE Tomcat系列
 ** 架构之路
 *** Java高并发
 *** 深入JVM内核
@@ -463,15 +233,15 @@ https://www.cnblogs.com/vincentzh/p/5988145.html
 *** TODO 面向对象编程
 *** TODO 浏览器
 *** TODO JQuery
-*** TODO 错误处理
-** VUE 
+*** TODO 错误 
+** H5
 
 * ***** Golang ***** 
-** new 和 make 的区别
-** foreach (使用的是副本的方式)
-* ***** 学习之道 ****
+** TODO Docker 
+* ***** 感悟 *****
 ** 精细化，不要动不动就找一个大的项目，这样不但会有大量的重复工作，也会使自己很疲惫。
 ** 毕业设计带来的感想: 很多东西是不需要重头开始的，要抓住亮点，突出重点。
-** 找工作带来的感想：
-*** 职业规划很重要
-*** 
+** 找工作带来的感想： 职业规划很重要。。。
+** 学会让自己思考，让自己作主，而不是让别人替我们思考做决定。 
+
+
