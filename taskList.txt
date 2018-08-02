@@ -1,11 +1,34 @@
+2018/08/02
+Maven私服(Nexus)
+dubbo
+zookeeper
+
+
+2018/08/01
+层级(zOrder)(OK)
+图层蒙版(添加一个Image(注意要有背景)，设置alpha)(OK)
+
+-------------------
+2018/07/31
+前面未完成的任务继续。(Ok)
+公共代码链接文件编写(x)
+写月结(x)
+阅读项目代码(ok)
+
+2018/07/30
+Champion游戏暴富动画(ok)
+三国暴富动画调整(OK)
+大厅暴富动画调整(x)
+捕鱼暴富动画(不做)
+
 
 2018/07/29
-TypeScript类什么时候不用通过import导入?同级目录？继承？
+TypeScript类什么时候不用通过import导入?同级目录？继承？(X)
 
 
 2018/07/28
 Champion游戏服务端代码(OK)
 Champion客户端代码(OK)
-Layaair 2D进阶篇
-Eclipse常用快捷键 https://www.cnblogs.com/mq0036/p/4995390.html
-Log4j
+Layaair 2D进阶篇(X)
+Eclipse常用快捷键 https://www.cnblogs.com/mq0036/p/4995390.html(X)
+Log4j (X)
