@@ -1,0 +1,240 @@
+2018-08-03 19:57:51,725 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.soecode.ssm:ssm:0.0.1-SNAPSHOT @ D:\note\java\ssm\ssm-master\pom.xml.
+2018-08-03 19:57:53,265 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.1/logback-classic-1.1.1.pom
+2018-08-03 19:57:53,592 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.1/logback-classic-1.1.1.pom
+2018-08-03 19:57:53,853 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.1.1/logback-parent-1.1.1.pom
+2018-08-03 19:57:54,802 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-parent/1.1.1/logback-parent-1.1.1.pom
+2018-08-03 19:57:55,097 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.1/logback-core-1.1.1.pom
+2018-08-03 19:57:55,523 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.1/logback-core-1.1.1.pom
+2018-08-03 19:57:55,822 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.37/mysql-connector-java-5.1.37.pom
+2018-08-03 19:57:56,925 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.37/mysql-connector-java-5.1.37.pom
+2018-08-03 19:57:57,222 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.pom
+2018-08-03 19:57:57,525 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.pom
+2018-08-03 19:57:57,803 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.3.0/mybatis-3.3.0.pom
+2018-08-03 19:57:58,528 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.3.0/mybatis-3.3.0.pom
+2018-08-03 19:57:59,475 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/24/mybatis-parent-24.pom
+2018-08-03 19:58:01,328 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis-parent/24/mybatis-parent-24.pom
+2018-08-03 19:58:01,710 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis-spring/1.2.3/mybatis-spring-1.2.3.pom
+2018-08-03 19:58:03,467 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis-spring/1.2.3/mybatis-spring-1.2.3.pom
+2018-08-03 19:58:04,342 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/taglibs/standard/1.1.2/standard-1.1.2.pom
+2018-08-03 19:58:05,171 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/taglibs/standard/1.1.2/standard-1.1.2.pom
+2018-08-03 19:58:05,485 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.pom
+2018-08-03 19:58:06,649 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.pom
+2018-08-03 19:58:06,931 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.5.1/jackson-parent-2.5.1.pom
+2018-08-03 19:58:07,758 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.5.1/jackson-parent-2.5.1.pom
+2018-08-03 19:58:08,043 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/19/oss-parent-19.pom
+2018-08-03 19:58:10,948 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/19/oss-parent-19.pom
+2018-08-03 19:58:11,572 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.pom
+2018-08-03 19:58:12,217 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.pom
+2018-08-03 19:58:13,014 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.5/jackson-parent-2.5.pom
+2018-08-03 19:58:14,164 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.5/jackson-parent-2.5.pom
+2018-08-03 19:58:14,448 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/18/oss-parent-18.pom
+2018-08-03 19:58:16,996 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/18/oss-parent-18.pom
+2018-08-03 19:58:17,290 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.pom
+2018-08-03 19:58:17,903 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.pom
+2018-08-03 19:58:19,794 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.1.7.RELEASE/spring-jdbc-4.1.7.RELEASE.pom
+2018-08-03 19:58:20,132 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.1.7.RELEASE/spring-jdbc-4.1.7.RELEASE.pom
+2018-08-03 19:58:21,260 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE.pom
+2018-08-03 19:58:21,538 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE.pom
+2018-08-03 19:58:21,871 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.1.7.RELEASE/spring-webmvc-4.1.7.RELEASE.pom
+2018-08-03 19:58:24,244 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.1.7.RELEASE/spring-webmvc-4.1.7.RELEASE.pom
+2018-08-03 19:58:24,585 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/4.1.7.RELEASE/spring-test-4.1.7.RELEASE.pom
+2018-08-03 19:58:25,381 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/4.1.7.RELEASE/spring-test-4.1.7.RELEASE.pom
+2018-08-03 19:58:25,677 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/redis/clients/jedis/2.7.3/jedis-2.7.3.pom
+2018-08-03 19:58:26,365 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/redis/clients/jedis/2.7.3/jedis-2.7.3.pom
+2018-08-03 19:58:26,693 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-core/1.0.8/protostuff-core-1.0.8.pom
+2018-08-03 19:58:27,000 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-core/1.0.8/protostuff-core-1.0.8.pom
+2018-08-03 19:58:27,637 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff/1.0.8/protostuff-1.0.8.pom
+2018-08-03 19:58:28,186 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff/1.0.8/protostuff-1.0.8.pom
+2018-08-03 19:58:28,466 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-api/1.0.8/protostuff-api-1.0.8.pom
+2018-08-03 19:58:28,778 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-api/1.0.8/protostuff-api-1.0.8.pom
+2018-08-03 19:58:29,430 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-runtime/1.0.8/protostuff-runtime-1.0.8.pom
+2018-08-03 19:58:29,724 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-runtime/1.0.8/protostuff-runtime-1.0.8.pom
+2018-08-03 19:58:30,085 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-collectionschema/1.0.8/protostuff-collectionschema-1.0.8.pom
+2018-08-03 19:58:30,386 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-collectionschema/1.0.8/protostuff-collectionschema-1.0.8.pom
+2018-08-03 19:58:31,144 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.1/logback-classic-1.1.1.jar
+2018-08-03 19:58:53,784 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.1.1/logback-classic-1.1.1.jar
+2018-08-03 19:58:54,045 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.1/logback-core-1.1.1.jar
+2018-08-03 19:59:15,617 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-core/1.1.1/logback-core-1.1.1.jar
+2018-08-03 19:59:15,886 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.37/mysql-connector-java-5.1.37.jar
+2018-08-03 20:00:12,902 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.37/mysql-connector-java-5.1.37.jar
+2018-08-03 20:00:13,166 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.jar
+2018-08-03 20:00:48,707 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.jar
+2018-08-03 20:00:48,989 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.3.0/mybatis-3.3.0.jar
+2018-08-03 20:02:01,475 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis/3.3.0/mybatis-3.3.0.jar
+2018-08-03 20:02:01,772 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mybatis/mybatis-spring/1.2.3/mybatis-spring-1.2.3.jar
+2018-08-03 20:02:04,566 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mybatis/mybatis-spring/1.2.3/mybatis-spring-1.2.3.jar
+2018-08-03 20:02:04,819 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/taglibs/standard/1.1.2/standard-1.1.2.jar
+2018-08-03 20:02:22,487 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/taglibs/standard/1.1.2/standard-1.1.2.jar
+2018-08-03 20:02:22,747 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.jar
+2018-08-03 20:03:14,826 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.jar
+2018-08-03 20:03:15,084 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar
+2018-08-03 20:03:17,646 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.5.0/jackson-annotations-2.5.0.jar
+2018-08-03 20:03:17,905 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.jar
+2018-08-03 20:03:28,479 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.5.4/jackson-core-2.5.4.jar
+2018-08-03 20:03:29,031 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.1.7.RELEASE/spring-beans-4.1.7.RELEASE.jar
+2018-08-03 20:04:12,477 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.1.7.RELEASE/spring-beans-4.1.7.RELEASE.jar
+2018-08-03 20:04:13,241 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.1.7.RELEASE/spring-expression-4.1.7.RELEASE.jar
+2018-08-03 20:04:30,730 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-expression/4.1.7.RELEASE/spring-expression-4.1.7.RELEASE.jar
+2018-08-03 20:04:30,984 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.1.7.RELEASE/spring-jdbc-4.1.7.RELEASE.jar
+2018-08-03 20:04:53,241 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.1.7.RELEASE/spring-jdbc-4.1.7.RELEASE.jar
+2018-08-03 20:04:53,770 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE.jar
+2018-08-03 20:05:17,400 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE.jar
+2018-08-03 20:05:17,660 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.1.7.RELEASE/spring-webmvc-4.1.7.RELEASE.jar
+2018-08-03 20:06:23,370 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-webmvc/4.1.7.RELEASE/spring-webmvc-4.1.7.RELEASE.jar
+2018-08-03 20:06:23,652 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-test/4.1.7.RELEASE/spring-test-4.1.7.RELEASE.jar
+2018-08-03 20:06:59,495 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/4.1.7.RELEASE/spring-test-4.1.7.RELEASE.jar
+2018-08-03 20:06:59,786 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/redis/clients/jedis/2.7.3/jedis-2.7.3.jar
+2018-08-03 20:07:22,932 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/redis/clients/jedis/2.7.3/jedis-2.7.3.jar
+2018-08-03 20:07:23,189 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-core/1.0.8/protostuff-core-1.0.8.jar
+2018-08-03 20:07:26,320 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-core/1.0.8/protostuff-core-1.0.8.jar
+2018-08-03 20:07:26,572 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-api/1.0.8/protostuff-api-1.0.8.jar
+2018-08-03 20:07:28,746 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-api/1.0.8/protostuff-api-1.0.8.jar
+2018-08-03 20:07:29,002 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-runtime/1.0.8/protostuff-runtime-1.0.8.jar
+2018-08-03 20:07:47,429 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-runtime/1.0.8/protostuff-runtime-1.0.8.jar
+2018-08-03 20:07:47,966 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-collectionschema/1.0.8/protostuff-collectionschema-1.0.8.jar
+2018-08-03 20:07:53,128 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/dyuproject/protostuff/protostuff-collectionschema/1.0.8/protostuff-collectionschema-1.0.8.jar
+2018-08-03 20:07:53,447 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2/commons-collections-3.2.jar
+2018-08-03 20:08:23,208 [Worker-8] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/commons-collections/commons-collections/3.2/commons-collections-3.2.jar
+2018-08-03 20:08:30,584 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ssm-master/src/main/java
+2018-08-03 20:08:30,585 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ssm-master/src/main/resources
+2018-08-03 20:08:30,586 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ssm-master/src/test/java
+2018-08-03 20:08:31,744 [Worker-8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 647 sec
+2018-08-03 20:08:33,370 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-03 20:08:33,380 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-08-03 20:08:33,424 [Worker-17] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-03 20:08:33,428 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\note\java\ssm\ssm-master\src\test\resources
+2018-08-03 20:11:56,339 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.soecode.ssm:ssm:0.0.1-SNAPSHOT @ D:\note\java\ssm\ssm-master\pom.xml.
+2018-08-03 20:11:56,366 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/ch/qos/logback/logback-classic/1.1.1/logback-classic-1.1.1.pom
+2018-08-03 20:11:56,372 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for ch.qos.logback:logback-classic:jar:1.1.1 is missing, no dependency information available
+2018-08-03 20:11:56,390 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/mysql/mysql-connector-java/5.1.37/mysql-connector-java-5.1.37.pom
+2018-08-03 20:11:56,395 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for mysql:mysql-connector-java:jar:5.1.37 is missing, no dependency information available
+2018-08-03 20:11:56,412 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.pom
+2018-08-03 20:11:56,428 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for c3p0:c3p0:jar:0.9.1.2 is missing, no dependency information available
+2018-08-03 20:11:56,445 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/org/mybatis/mybatis/3.3.0/mybatis-3.3.0.pom
+2018-08-03 20:11:56,450 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mybatis:mybatis:jar:3.3.0 is missing, no dependency information available
+2018-08-03 20:11:56,464 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/org/mybatis/mybatis-spring/1.2.3/mybatis-spring-1.2.3.pom
+2018-08-03 20:11:56,469 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mybatis:mybatis-spring:jar:1.2.3 is missing, no dependency information available
+2018-08-03 20:11:56,517 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.pom
+2018-08-03 20:11:56,522 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-databind:jar:2.5.4 is missing, no dependency information available
+2018-08-03 20:11:56,601 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE.pom
+2018-08-03 20:11:56,606 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-web:jar:4.1.7.RELEASE is missing, no dependency information available
+2018-08-03 20:11:56,619 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/org/springframework/spring-webmvc/4.1.7.RELEASE/spring-webmvc-4.1.7.RELEASE.pom
+2018-08-03 20:11:56,624 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-webmvc:jar:4.1.7.RELEASE is missing, no dependency information available
+2018-08-03 20:11:56,641 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/org/springframework/spring-test/4.1.7.RELEASE/spring-test-4.1.7.RELEASE.pom
+2018-08-03 20:11:56,646 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-test:jar:4.1.7.RELEASE is missing, no dependency information available
+2018-08-03 20:11:56,663 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/redis/clients/jedis/2.7.3/jedis-2.7.3.pom
+2018-08-03 20:11:56,667 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for redis.clients:jedis:jar:2.7.3 is missing, no dependency information available
+2018-08-03 20:11:56,693 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/com/dyuproject/protostuff/protostuff-core/1.0.8/protostuff-core-1.0.8.pom
+2018-08-03 20:11:56,698 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.dyuproject.protostuff:protostuff-core:jar:1.0.8 is missing, no dependency information available
+2018-08-03 20:11:56,716 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/com/dyuproject/protostuff/protostuff-runtime/1.0.8/protostuff-runtime-1.0.8.pom
+2018-08-03 20:11:56,756 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.dyuproject.protostuff:protostuff-runtime:jar:1.0.8 is missing, no dependency information available
+2018-08-03 20:11:56,827 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/ch/qos/logback/logback-classic/1.1.1/logback-classic-1.1.1.jar
+2018-08-03 20:11:56,832 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/mysql/mysql-connector-java/5.1.37/mysql-connector-java-5.1.37.jar
+2018-08-03 20:11:56,838 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.jar
+2018-08-03 20:11:56,844 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/org/mybatis/mybatis/3.3.0/mybatis-3.3.0.jar
+2018-08-03 20:11:56,851 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/org/mybatis/mybatis-spring/1.2.3/mybatis-spring-1.2.3.jar
+2018-08-03 20:11:56,863 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/com/fasterxml/jackson/core/jackson-databind/2.5.4/jackson-databind-2.5.4.jar
+2018-08-03 20:11:56,892 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/org/springframework/spring-web/4.1.7.RELEASE/spring-web-4.1.7.RELEASE.jar
+2018-08-03 20:11:56,900 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/org/springframework/spring-webmvc/4.1.7.RELEASE/spring-webmvc-4.1.7.RELEASE.jar
+2018-08-03 20:11:56,905 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/org/springframework/spring-test/4.1.7.RELEASE/spring-test-4.1.7.RELEASE.jar
+2018-08-03 20:11:56,912 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/redis/clients/jedis/2.7.3/jedis-2.7.3.jar
+2018-08-03 20:11:56,918 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/com/dyuproject/protostuff/protostuff-core/1.0.8/protostuff-core-1.0.8.jar
+2018-08-03 20:11:56,924 [Worker-15] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://192.168.1.223:8090/nexus/content/groups/public/com/dyuproject/protostuff/protostuff-runtime/1.0.8/protostuff-runtime-1.0.8.jar
+2018-08-03 20:11:58,139 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for ch.qos.logback:logback-classic:jar:1.1.1 is missing, no dependency information available
+2018-08-03 20:11:58,157 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for mysql:mysql-connector-java:jar:5.1.37 is missing, no dependency information available
+2018-08-03 20:11:58,163 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for c3p0:c3p0:jar:0.9.1.2 is missing, no dependency information available
+2018-08-03 20:11:58,170 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mybatis:mybatis:jar:3.3.0 is missing, no dependency information available
+2018-08-03 20:11:58,177 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mybatis:mybatis-spring:jar:1.2.3 is missing, no dependency information available
+2018-08-03 20:11:58,190 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-databind:jar:2.5.4 is missing, no dependency information available
+2018-08-03 20:11:58,236 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-web:jar:4.1.7.RELEASE is missing, no dependency information available
+2018-08-03 20:11:58,243 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-webmvc:jar:4.1.7.RELEASE is missing, no dependency information available
+2018-08-03 20:11:58,249 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-test:jar:4.1.7.RELEASE is missing, no dependency information available
+2018-08-03 20:11:58,256 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for redis.clients:jedis:jar:2.7.3 is missing, no dependency information available
+2018-08-03 20:11:58,262 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.dyuproject.protostuff:protostuff-core:jar:1.0.8 is missing, no dependency information available
+2018-08-03 20:11:58,269 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.dyuproject.protostuff:protostuff-runtime:jar:1.0.8 is missing, no dependency information available
+2018-08-03 20:11:58,583 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-03 20:11:58,590 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-08-03 20:11:58,621 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-03 20:11:58,625 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\note\java\ssm\ssm-master\src\test\resources
+2018-08-03 20:12:31,075 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.soecode.ssm:ssm:0.0.1-SNAPSHOT @ D:\note\java\ssm\ssm-master\pom.xml.
+2018-08-03 20:12:31,086 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for ch.qos.logback:logback-classic:jar:1.1.1 is missing, no dependency information available
+2018-08-03 20:12:31,092 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for mysql:mysql-connector-java:jar:5.1.37 is missing, no dependency information available
+2018-08-03 20:12:31,099 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for c3p0:c3p0:jar:0.9.1.2 is missing, no dependency information available
+2018-08-03 20:12:31,106 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mybatis:mybatis:jar:3.3.0 is missing, no dependency information available
+2018-08-03 20:12:31,113 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mybatis:mybatis-spring:jar:1.2.3 is missing, no dependency information available
+2018-08-03 20:12:31,125 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-databind:jar:2.5.4 is missing, no dependency information available
+2018-08-03 20:12:31,167 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-web:jar:4.1.7.RELEASE is missing, no dependency information available
+2018-08-03 20:12:31,174 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-webmvc:jar:4.1.7.RELEASE is missing, no dependency information available
+2018-08-03 20:12:31,181 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-test:jar:4.1.7.RELEASE is missing, no dependency information available
+2018-08-03 20:12:31,189 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for redis.clients:jedis:jar:2.7.3 is missing, no dependency information available
+2018-08-03 20:12:31,196 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.dyuproject.protostuff:protostuff-core:jar:1.0.8 is missing, no dependency information available
+2018-08-03 20:12:31,204 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.dyuproject.protostuff:protostuff-runtime:jar:1.0.8 is missing, no dependency information available
+2018-08-03 20:12:31,590 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ssm-master/src/main/java
+2018-08-03 20:12:31,591 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ssm-master/src/main/resources
+2018-08-03 20:12:31,591 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ssm-master/src/test/java
+2018-08-03 20:12:31,716 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2018-08-03 20:12:32,586 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for ch.qos.logback:logback-classic:jar:1.1.1 is missing, no dependency information available
+2018-08-03 20:12:32,621 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for mysql:mysql-connector-java:jar:5.1.37 is missing, no dependency information available
+2018-08-03 20:12:32,638 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for c3p0:c3p0:jar:0.9.1.2 is missing, no dependency information available
+2018-08-03 20:12:32,646 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mybatis:mybatis:jar:3.3.0 is missing, no dependency information available
+2018-08-03 20:12:32,654 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mybatis:mybatis-spring:jar:1.2.3 is missing, no dependency information available
+2018-08-03 20:12:32,668 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.fasterxml.jackson.core:jackson-databind:jar:2.5.4 is missing, no dependency information available
+2018-08-03 20:12:32,715 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-web:jar:4.1.7.RELEASE is missing, no dependency information available
+2018-08-03 20:12:32,724 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-webmvc:jar:4.1.7.RELEASE is missing, no dependency information available
+2018-08-03 20:12:32,733 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.springframework:spring-test:jar:4.1.7.RELEASE is missing, no dependency information available
+2018-08-03 20:12:32,741 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for redis.clients:jedis:jar:2.7.3 is missing, no dependency information available
+2018-08-03 20:12:32,751 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.dyuproject.protostuff:protostuff-core:jar:1.0.8 is missing, no dependency information available
+2018-08-03 20:12:32,760 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.dyuproject.protostuff:protostuff-runtime:jar:1.0.8 is missing, no dependency information available
+2018-08-03 20:12:32,836 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-03 20:12:32,844 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-08-03 20:12:32,867 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-03 20:12:32,875 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\note\java\ssm\ssm-master\src\test\resources
+2018-08-03 20:14:09,017 [Worker-18] ERROR o.e.m.c.internal.embedder.MavenImpl - Could not read settings.xml, assuming default values
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-readable settings C:\Users\User\.m2\repository: C:\Users\User\.m2\repository (¾Ü¾ø·ÃÎÊ¡£) @ C:\Users\User\.m2\repository
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:119) ~[maven-settings-builder-3.3.3.jar:3.3.3]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getSettings(MavenImpl.java:470) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.reloadSettings(MavenImpl.java:535) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.mavenConfigurationChange(MavenImpl.java:557) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.preferences.MavenConfigurationImpl.preferenceChange(MavenConfigurationImpl.java:183) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.core.internal.preferences.EclipsePreferences$3.run(EclipsePreferences.java:896) [org.eclipse.equinox.preferences_3.5.300.v20150408-1437.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.7.0.v20150402-1709.jar:na]
+	at org.eclipse.core.internal.preferences.EclipsePreferences.firePreferenceEvent(EclipsePreferences.java:899) [org.eclipse.equinox.preferences_3.5.300.v20150408-1437.jar:na]
+	at org.eclipse.core.internal.preferences.EclipsePreferences.put(EclipsePreferences.java:912) [org.eclipse.equinox.preferences_3.5.300.v20150408-1437.jar:na]
+	at org.eclipse.m2e.core.internal.preferences.MavenConfigurationImpl.setUserSettingsFile(MavenConfigurationImpl.java:132) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.ui.internal.preferences.MavenSettingsPreferencePage$1.run(MavenSettingsPreferencePage.java:151) [org.eclipse.m2e.core.ui_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+2018-08-03 20:14:09,051 [Worker-18] ERROR o.e.m.c.internal.embedder.MavenImpl - Could not read settings.xml, assuming default values
+org.apache.maven.settings.building.SettingsBuildingException: 1 problem was encountered while building the effective settings
+[FATAL] Non-readable settings C:\Users\User\.m2\repository: C:\Users\User\.m2\repository (¾Ü¾ø·ÃÎÊ¡£) @ C:\Users\User\.m2\repository
+
+	at org.apache.maven.settings.building.DefaultSettingsBuilder.build(DefaultSettingsBuilder.java:119) ~[maven-settings-builder-3.3.3.jar:3.3.3]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getSettings(MavenImpl.java:470) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.reloadSettings(MavenImpl.java:535) [org.eclipse.m2e.core_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.m2e.core.ui.internal.preferences.MavenSettingsPreferencePage$1.run(MavenSettingsPreferencePage.java:162) [org.eclipse.m2e.core.ui_1.6.2.20150902-0002.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+2018-08-03 20:14:10,657 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.soecode.ssm:ssm:0.0.1-SNAPSHOT @ D:\note\java\ssm\ssm-master\pom.xml.
+2018-08-03 20:14:11,953 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-03 20:14:11,960 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-08-03 20:14:12,003 [Worker-1] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-03 20:14:12,009 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\note\java\ssm\ssm-master\src\test\resources
+2018-08-03 20:14:53,296 [Worker-17] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6-sources.jar
+2018-08-03 20:14:55,164 [Worker-17] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6-sources.jar
+2018-08-03 20:14:55,363 [Worker-17] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-api:1.7.6
+2018-08-03 20:14:55,613 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-03 20:14:55,633 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-03 20:14:55,634 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-03 20:14:55,678 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\note\java\ssm\ssm-master\src\test\resources
+2018-08-03 20:16:07,177 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-03 20:16:07,184 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 8 resources
+2018-08-03 20:16:07,186 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-03 20:16:07,192 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\note\java\ssm\ssm-master\src\test\resources
+2018-08-03 20:16:29,875 [Worker-19] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.1.7.RELEASE/spring-beans-4.1.7.RELEASE-sources.jar
+2018-08-03 20:17:04,928 [Worker-19] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.1.7.RELEASE/spring-beans-4.1.7.RELEASE-sources.jar
+2018-08-03 20:17:05,074 [Worker-19] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework:spring-beans:4.1.7.RELEASE
+2018-08-03 20:17:05,289 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-03 20:17:05,305 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-03 20:17:05,306 [Worker-8] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-03 20:17:05,312 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\note\java\ssm\ssm-master\src\test\resources
+2018-08-03 20:19:56,204 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache file is not out-of-date. No remote download required.

@@ -1,8 +1,38 @@
+
+====阅读源码====
+
+2018/08/07
+TypeScript与JavaScript的转换关系？
+layaair源码  https://www.zybuluo.com/yangfch3/note/687922
+两个项目间的通信 https://blog.csdn.net/sunshine_silence/article/details/78771198
+mina通信 
+
+
+2018/08/06
+斗地主暴富动画(取消)
+fastjson
+ActiveMQ
+java default关键字 (default关键字可以让接口中的方法有默认的函数体,d当一个类实现该接口时,可以不用实现该方法)
+
 2018/08/02
 Maven私服(Nexus)
-dubbo
-zookeeper
+	概念及原因: https://www.cnblogs.com/wincai/p/5599282.html(ok)
+	怎么搭一个Maven私服?
 
+SOA
+	
+Dubbo
+概念及原因： https://blog.csdn.net/noaman_wgs/article/details/70214612
+
+
+RPC：
+通讯问题 寻址问题 序列化和反序列化问题
+
+Dubbo注册中心:
+	Zookeeper: https://www.cnblogs.com/felixzh/p/5869212.html
+		概念：开放源码的分布式应用程序协调服务
+
+Win7命令mklink的使用 https://www.cnblogs.com/xiaoyang002/p/4016075.html
 
 2018/08/01
 层级(zOrder)(OK)
@@ -32,3 +62,4 @@ Champion客户端代码(OK)
 Layaair 2D进阶篇(X)
 Eclipse常用快捷键 https://www.cnblogs.com/mq0036/p/4995390.html(X)
 Log4j (X)
+	final Logger logger = LogManager.getLogger();
