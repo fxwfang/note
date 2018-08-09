@@ -5,3 +5,9 @@ F2
 F3 代码跳转
 Alt + 方向键（<- 或者 ->） 代码回退/前进
 Ctrl+Alt+H  查看一个类的方法到底被那些其他的类调用(Ctrl+Shift+G 怎个区间查找)
+Ctrl+Shift+G 查找类、方法和属性的引用
+ALT +Shift +W 查找当前文件所在项目中的路径,如果想查找某个文件所在的包
+Ctrl+L 定位到当前编辑器的某一行
+
+参考：
+https://blog.csdn.net/chushoutaizhong/article/details/51997929

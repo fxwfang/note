@@ -1,5 +1,15 @@
 
 ====阅读源码====
+2018/08/09
+Layaair IDE篇
+redis 源码阅读 https://www.cnblogs.com/aixiaomei/p/6311633.html
+
+2018/08/08
+多线程共享静态变量 数据同步问题
+static final修饰的对象可以改变属性
+java protect修饰符
+org.springframework.jms.core
+消息中间件的基本介绍  https://www.cnblogs.com/likemebee/p/activeMQ.html
 
 2018/08/07
 TypeScript与JavaScript的转换关系？
@@ -11,7 +21,7 @@ mina通信
 2018/08/06
 斗地主暴富动画(取消)
 fastjson
-ActiveMQ
+ActiveMQ   https://www.cnblogs.com/lemon-flm/p/7676047.html
 java default关键字 (default关键字可以让接口中的方法有默认的函数体,d当一个类实现该接口时,可以不用实现该方法)
 
 2018/08/02
