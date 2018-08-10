@@ -1,5 +1,16 @@
 
 ====阅读源码====
+
+
+
+2018/08/10
+JDK8- java.util.stream  
+RSA加解密
+游戏服务器网关设计 https://blog.csdn.net/youxijishu/article/details/72811118
+长连接 短连接
+搭建一个服务器 (Docker )
+
+
 2018/08/09
 Layaair IDE篇
 redis 源码阅读 https://www.cnblogs.com/aixiaomei/p/6311633.html
@@ -72,4 +83,9 @@ Champion客户端代码(OK)
 Layaair 2D进阶篇(X)
 Eclipse常用快捷键 https://www.cnblogs.com/mq0036/p/4995390.html(X)
 Log4j (X)
+	三个重要构成： Loggers Appenders Layout
+	日志等级： error warn info debug
+	Appenders => ConsoleAppender FileAppender DailyRollingFileAppender
+	LogManager
 	final Logger logger = LogManager.getLogger();
+	
