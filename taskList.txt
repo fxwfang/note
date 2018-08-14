@@ -2,9 +2,36 @@
 ====阅读源码====
 
 
+2018/8/14
+GM，数值修改功能，刷新按钮要按两下才能成功，为什么？
+https://console.cloud.tencent.com/sms/sdkAPI  腾讯短信接口
+quartz 建一个定时任务 
+
+
+2018/08/13
+Socket问题,写个socket例子,端口可配置
+   "socket": {
+        "listenIP": "0.0.0.0",
+        "listenPort": 6300,
+        "readTimeout": 120,
+        "writeTimeout": 150,
+        "maxWorkThread": 16
+    },
+
+	
+Layaair   
+	F9
+	Ctrl + P 设置页面  (视图背景)	
+	
+怎么做一个三国争霸？从哪里开始？注意什么
+怎么做一个夺冠之路的游戏？。。。
+怎么做好设计？
+
 
 2018/08/10
-JDK8- java.util.stream  
+JDK8- java.util.stream     https://www.ibm.com/developerworks/cn/java/j-lo-java8streamapi/
+	流：对集合对象的增强
+Lambda 表达式
 RSA加解密
 游戏服务器网关设计 https://blog.csdn.net/youxijishu/article/details/72811118
 长连接 短连接
