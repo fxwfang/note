@@ -1,15 +1,38 @@
+ï»¿
+2018/08/17
+new Threadçš„å¼Šç«¯åŠJavaå››ç§çº¿ç¨‹æ± çš„ä½¿ç”¨ https://www.cnblogs.com/zhujiabin/p/5404771.html
+å¯ä»¥å­¦ä¹ çš„åšå®¢ http://yihongwei.com/
 
-====ÔÄ¶ÁÔ´Âë====
+2018/08/16
+å†™ä¸€ä¸ªMinaé€šä¿¡æ¡ˆä¾‹
+http://mina.apache.org/mina-project/quick-start-guide.html
+http://mina.apache.org/mina-project/userguide/user-guide-toc.html
+ 
+Java NIO 
+ConcurrentHashMap 
+System.getProperty()æ–¹æ³•èŽ·å–ç³»ç»Ÿå˜é‡
 
+å†™ä¸€ä¸ªactivemqä¾‹å­
+
+com.google.common.reflect
+
+MINAå¿ƒè·³æœºåˆ¶   https://www.cnblogs.com/dagangzi/p/4718660.html
+å¿ƒè·³æœºåˆ¶
+LINUX Cç½‘ç»œç¼–ç¨‹ä¸­çš„å¿ƒè·³æœºåˆ¶ https://blog.csdn.net/yuyin86/article/details/24997175
+ä¸é”™çš„åšå®¢ç½‘ç«™ http://ideabuffer.cn/
+
+
+2018/08/15
+EXPLAIN https://www.cnblogs.com/clphp/p/5403215.html
 
 2018/8/14
-GM£¬ÊýÖµÐÞ¸Ä¹¦ÄÜ£¬Ë¢ÐÂ°´Å¥Òª°´Á½ÏÂ²ÅÄÜ³É¹¦£¬ÎªÊ²Ã´£¿
-https://console.cloud.tencent.com/sms/sdkAPI  ÌÚÑ¶¶ÌÐÅ½Ó¿Ú
-quartz ½¨Ò»¸ö¶¨Ê±ÈÎÎñ 
+GMï¼Œæ•°å€¼ä¿®æ”¹åŠŸèƒ½ï¼Œåˆ·æ–°æŒ‰é’®è¦æŒ‰ä¸¤ä¸‹æ‰èƒ½æˆåŠŸï¼Œä¸ºä»€ä¹ˆï¼Ÿ
+https://console.cloud.tencent.com/sms/sdkAPI  è…¾è®¯çŸ­ä¿¡æŽ¥å£
+quartz å»ºä¸€ä¸ªå®šæ—¶ä»»åŠ¡,å¤šçº¿ç¨‹
 
 
 2018/08/13
-SocketÎÊÌâ,Ð´¸ösocketÀý×Ó,¶Ë¿Ú¿ÉÅäÖÃ
+Socketé—®é¢˜,å†™ä¸ªsocketä¾‹å­,ç«¯å£å¯é…ç½®
    "socket": {
         "listenIP": "0.0.0.0",
         "listenPort": 6300,
@@ -21,97 +44,99 @@ SocketÎÊÌâ,Ð´¸ösocketÀý×Ó,¶Ë¿Ú¿ÉÅäÖÃ
 	
 Layaair   
 	F9
-	Ctrl + P ÉèÖÃÒ³Ãæ  (ÊÓÍ¼±³¾°)	
+	Ctrl + P è®¾ç½®é¡µé¢  (è§†å›¾èƒŒæ™¯)	
 	
-ÔõÃ´×öÒ»¸öÈý¹úÕù°Ô£¿´ÓÄÄÀï¿ªÊ¼£¿×¢ÒâÊ²Ã´
-ÔõÃ´×öÒ»¸ö¶á¹ÚÖ®Â·µÄÓÎÏ·£¿¡£¡£¡£
-ÔõÃ´×öºÃÉè¼Æ£¿
+æ€Žä¹ˆåšä¸€ä¸ªä¸‰å›½äº‰éœ¸ï¼Ÿä»Žå“ªé‡Œå¼€å§‹ï¼Ÿæ³¨æ„ä»€ä¹ˆ
+æ€Žä¹ˆåšä¸€ä¸ªå¤ºå† ä¹‹è·¯çš„æ¸¸æˆï¼Ÿã€‚ã€‚ã€‚
+æ€Žä¹ˆåšå¥½è®¾è®¡ï¼Ÿ
 
 
 2018/08/10
 JDK8- java.util.stream     https://www.ibm.com/developerworks/cn/java/j-lo-java8streamapi/
-	Á÷£º¶Ô¼¯ºÏ¶ÔÏóµÄÔöÇ¿
-Lambda ±í´ïÊ½
-RSA¼Ó½âÃÜ
-ÓÎÏ··þÎñÆ÷Íø¹ØÉè¼Æ https://blog.csdn.net/youxijishu/article/details/72811118
-³¤Á¬½Ó ¶ÌÁ¬½Ó
-´î½¨Ò»¸ö·þÎñÆ÷ (Docker )
+	æµï¼šå¯¹é›†åˆå¯¹è±¡çš„å¢žå¼º
+Lambda è¡¨è¾¾å¼
+RSAåŠ è§£å¯†
+æ¸¸æˆæœåŠ¡å™¨ç½‘å…³è®¾è®¡ https://blog.csdn.net/youxijishu/article/details/72811118
+é•¿è¿žæŽ¥ çŸ­è¿žæŽ¥
+æ­å»ºä¸€ä¸ªæœåŠ¡å™¨ (Docker )
 
 
 2018/08/09
-Layaair IDEÆª
-redis Ô´ÂëÔÄ¶Á https://www.cnblogs.com/aixiaomei/p/6311633.html
+Layaair IDEç¯‡
+redis æºç é˜…è¯» https://www.cnblogs.com/aixiaomei/p/6311633.html
 
 2018/08/08
-¶àÏß³Ì¹²Ïí¾²Ì¬±äÁ¿ Êý¾ÝÍ¬²½ÎÊÌâ
-static finalÐÞÊÎµÄ¶ÔÏó¿ÉÒÔ¸Ä±äÊôÐÔ
-java protectÐÞÊÎ·û
+å¤šçº¿ç¨‹å…±äº«é™æ€å˜é‡ æ•°æ®åŒæ­¥é—®é¢˜
+static finalä¿®é¥°çš„å¯¹è±¡å¯ä»¥æ”¹å˜å±žæ€§
+java protectä¿®é¥°ç¬¦
 org.springframework.jms.core
-ÏûÏ¢ÖÐ¼ä¼þµÄ»ù±¾½éÉÜ  https://www.cnblogs.com/likemebee/p/activeMQ.html
+æ¶ˆæ¯ä¸­é—´ä»¶çš„åŸºæœ¬ä»‹ç»  https://www.cnblogs.com/likemebee/p/activeMQ.html
 
 2018/08/07
-TypeScriptÓëJavaScriptµÄ×ª»»¹ØÏµ£¿
-layaairÔ´Âë  https://www.zybuluo.com/yangfch3/note/687922
-Á½¸öÏîÄ¿¼äµÄÍ¨ÐÅ https://blog.csdn.net/sunshine_silence/article/details/78771198
-minaÍ¨ÐÅ 
+TypeScriptä¸ŽJavaScriptçš„è½¬æ¢å…³ç³»ï¼Ÿ
+layaairæºç   https://www.zybuluo.com/yangfch3/note/687922
+ä¸¤ä¸ªé¡¹ç›®é—´çš„é€šä¿¡ https://blog.csdn.net/sunshine_silence/article/details/78771198
+minaé€šä¿¡ 
 
 
 2018/08/06
-¶·µØÖ÷±©¸»¶¯»­(È¡Ïû)
+æ–—åœ°ä¸»æš´å¯ŒåŠ¨ç”»(å–æ¶ˆ)
 fastjson
 ActiveMQ   https://www.cnblogs.com/lemon-flm/p/7676047.html
-java default¹Ø¼ü×Ö (default¹Ø¼ü×Ö¿ÉÒÔÈÃ½Ó¿ÚÖÐµÄ·½·¨ÓÐÄ¬ÈÏµÄº¯ÊýÌå,dµ±Ò»¸öÀàÊµÏÖ¸Ã½Ó¿ÚÊ±,¿ÉÒÔ²»ÓÃÊµÏÖ¸Ã·½·¨)
+java defaultå…³é”®å­— (defaultå…³é”®å­—å¯ä»¥è®©æŽ¥å£ä¸­çš„æ–¹æ³•æœ‰é»˜è®¤çš„å‡½æ•°ä½“,då½“ä¸€ä¸ªç±»å®žçŽ°è¯¥æŽ¥å£æ—¶,å¯ä»¥ä¸ç”¨å®žçŽ°è¯¥æ–¹æ³•)
+
 
 2018/08/02
-MavenË½·þ(Nexus)
-	¸ÅÄî¼°Ô­Òò: https://www.cnblogs.com/wincai/p/5599282.html(ok)
-	ÔõÃ´´îÒ»¸öMavenË½·þ?
+Mavenç§æœ(Nexus)
+	æ¦‚å¿µåŠåŽŸå› : https://www.cnblogs.com/wincai/p/5599282.html(ok)
+	æ€Žä¹ˆæ­ä¸€ä¸ªMavenç§æœ?
 
 SOA
 	
 Dubbo
-¸ÅÄî¼°Ô­Òò£º https://blog.csdn.net/noaman_wgs/article/details/70214612
+æ¦‚å¿µåŠåŽŸå› ï¼š https://blog.csdn.net/noaman_wgs/article/details/70214612
 
 
-RPC£º
-Í¨Ñ¶ÎÊÌâ Ñ°Ö·ÎÊÌâ ÐòÁÐ»¯ºÍ·´ÐòÁÐ»¯ÎÊÌâ
 
-Dubbo×¢²áÖÐÐÄ:
+
+RPCï¼š
+é€šè®¯é—®é¢˜ å¯»å€é—®é¢˜ åºåˆ—åŒ–å’Œååºåˆ—åŒ–é—®é¢˜
+
+Dubboæ³¨å†Œä¸­å¿ƒ:
 	Zookeeper: https://www.cnblogs.com/felixzh/p/5869212.html
-		¸ÅÄî£º¿ª·ÅÔ´ÂëµÄ·Ö²¼Ê½Ó¦ÓÃ³ÌÐòÐ­µ÷·þÎñ
+		æ¦‚å¿µï¼šå¼€æ”¾æºç çš„åˆ†å¸ƒå¼åº”ç”¨ç¨‹åºåè°ƒæœåŠ¡
 
-Win7ÃüÁîmklinkµÄÊ¹ÓÃ https://www.cnblogs.com/xiaoyang002/p/4016075.html
+Win7å‘½ä»¤mklinkçš„ä½¿ç”¨ https://www.cnblogs.com/xiaoyang002/p/4016075.html
 
 2018/08/01
-²ã¼¶(zOrder)(OK)
-Í¼²ãÃÉ°æ(Ìí¼ÓÒ»¸öImage(×¢ÒâÒªÓÐ±³¾°)£¬ÉèÖÃalpha)(OK)
+å±‚çº§(zOrder)(OK)
+å›¾å±‚è’™ç‰ˆ(æ·»åŠ ä¸€ä¸ªImage(æ³¨æ„è¦æœ‰èƒŒæ™¯)ï¼Œè®¾ç½®alpha)(OK)
 
 -------------------
 2018/07/31
-Ç°ÃæÎ´Íê³ÉµÄÈÎÎñ¼ÌÐø¡£(Ok)
-¹«¹²´úÂëÁ´½ÓÎÄ¼þ±àÐ´(x)
-Ð´ÔÂ½á(x)
-ÔÄ¶ÁÏîÄ¿´úÂë(ok)
+å‰é¢æœªå®Œæˆçš„ä»»åŠ¡ç»§ç»­ã€‚(Ok)
+å…¬å…±ä»£ç é“¾æŽ¥æ–‡ä»¶ç¼–å†™(x)
+å†™æœˆç»“(x)
+é˜…è¯»é¡¹ç›®ä»£ç (ok)
 
 2018/07/30
-ChampionÓÎÏ·±©¸»¶¯»­(ok)
-Èý¹ú±©¸»¶¯»­µ÷Õû(OK)
-´óÌü±©¸»¶¯»­µ÷Õû(x)
-²¶Óã±©¸»¶¯»­(²»×ö)
-
+Championæ¸¸æˆæš´å¯ŒåŠ¨ç”»(ok)
+ä¸‰å›½æš´å¯ŒåŠ¨ç”»è°ƒæ•´(OK)
+å¤§åŽ…æš´å¯ŒåŠ¨ç”»è°ƒæ•´(x)
+æ•é±¼æš´å¯ŒåŠ¨ç”»(ä¸åš)
 
 2018/07/29
-TypeScriptÀàÊ²Ã´Ê±ºò²»ÓÃÍ¨¹ýimportµ¼Èë?Í¬¼¶Ä¿Â¼£¿¼Ì³Ð£¿(X)
+TypeScriptç±»ä»€ä¹ˆæ—¶å€™ä¸ç”¨é€šè¿‡importå¯¼å…¥?åŒçº§ç›®å½•ï¼Ÿç»§æ‰¿ï¼Ÿ(X)
 
 
 2018/07/28
-ChampionÓÎÏ··þÎñ¶Ë´úÂë(OK)
-Champion¿Í»§¶Ë´úÂë(OK)
-Layaair 2D½ø½×Æª(X)
-Eclipse³£ÓÃ¿ì½Ý¼ü https://www.cnblogs.com/mq0036/p/4995390.html(X)
+Championæ¸¸æˆæœåŠ¡ç«¯ä»£ç (OK)
+Championå®¢æˆ·ç«¯ä»£ç (OK)
+Layaair 2Dè¿›é˜¶ç¯‡(X)
+Eclipseå¸¸ç”¨å¿«æ·é”® https://www.cnblogs.com/mq0036/p/4995390.html(X)
 Log4j (X)
-	Èý¸öÖØÒª¹¹³É£º Loggers Appenders Layout
-	ÈÕÖ¾µÈ¼¶£º error warn info debug
+	ä¸‰ä¸ªé‡è¦æž„æˆï¼š Loggers Appenders Layout
+	æ—¥å¿—ç­‰çº§ï¼š error warn info debug
 	Appenders => ConsoleAppender FileAppender DailyRollingFileAppender
 	LogManager
 	final Logger logger = LogManager.getLogger();

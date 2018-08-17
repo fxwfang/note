@@ -1,4 +1,4 @@
-Ctrl+ p  快速查找，跳转到文件Quick Open
+﻿Ctrl+ p  快速查找，跳转到文件Quick Open
 Alt + ←/→	返回/前进 Go back / forward
 F12  函数跳转(相当于Ctrl + 鼠标单击)
 Ctrl+B 隐藏掉左侧的菜单栏(切换侧边栏)
