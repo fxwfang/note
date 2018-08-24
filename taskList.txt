@@ -1,4 +1,7 @@
 ﻿
+2018/08/20
+mina 断线重连  http://chwshuang.iteye.com/blog/2028951
+
 2018/08/17
 new Thread的弊端及Java四种线程池的使用 https://www.cnblogs.com/zhujiabin/p/5404771.html
 可以学习的博客 http://yihongwei.com/

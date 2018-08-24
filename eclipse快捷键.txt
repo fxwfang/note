@@ -10,6 +10,6 @@ Ctrl+Alt+H  查看一个类的方法到底被那些其他的类调用(Ctrl+Shift
 Ctrl+Shift+G 查找类、方法和属性的引用
 Ctrl+L 定位到当前编辑器的某一行
 Ctrl+Shift+y/x  转为小写/大写 
-
+Ctrl+T: 查看类的继承关系
 参考：
 https://blog.csdn.net/chushoutaizhong/article/details/51997929
