@@ -3,6 +3,8 @@
 Ctrl+M 全屏显示(按两下退出)
 F2 
 F3 代码跳转
+Ctrl + F4 关闭当前页面
+Ctrl + F6 页面选择
 Alt + 方向键（<- 或者 ->） 代码回退/前进
 ALT +Shift +W 查找当前文件所在项目中的路径,如果想查找某个文件所在的包
 Crtl + F11 调试运行
@@ -11,5 +13,22 @@ Ctrl+Shift+G 查找类、方法和属性的引用
 Ctrl+L 定位到当前编辑器的某一行
 Ctrl+Shift+y/x  转为小写/大写 
 Ctrl+T: 查看类的继承关系
+
+
+光标移动设置(类似vim)：
+window -> preferences -> General -> keys下设置:
+Line Up: Ctrl+ K   光标向上
+Line Down: Ctrl + J  光标向下
+previous column:Ctrl + H   光标左移动
+Next Column: Ctrl + L   光标向后移动
+
+//Line Start: xxxx  移到代码的行首
+//Line End: xxxx 移到代码的行尾
+
+
+
+
+
+
 参考：
 https://blog.csdn.net/chushoutaizhong/article/details/51997929

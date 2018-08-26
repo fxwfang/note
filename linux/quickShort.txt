@@ -1,0 +1,4 @@
+Win + H
+Alt + Tab
+Ctrl + tab
+
