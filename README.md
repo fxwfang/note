@@ -3,11 +3,19 @@
 #### 1. Java基础
 
 * Java集合框架
-  - - [ ] **HashMap & ConcureentHashMap原理**
-    * 底层数据结构
-      * 扩容 & 缩容
-      * 
-  - - [ ] TODO
+  - - [ ] **[HashMap](./HashMap.md)**
+    * HashMap底层数据结构?
+    
+    * get和put的原理？ equals() 和hashCode（）都有什么作用？
+    
+    * hash的实现及为什么要这么实现？
+    
+    * 如果HashMap的大小超过了负载因子（load factor）定义的容量，该怎么办？
+    
+      
+  - - [ ] **ConcureentHashMap**
+  
+      
   - - [ ] TODO
   - - [ ] TODO
 * Java并发知识
