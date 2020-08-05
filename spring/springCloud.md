@@ -119,7 +119,7 @@ HttpClient，RestTemplate是一种更优雅的调用RESTful服务的方式。
 
 
 
-#### Eureka
+### Eureka
 
 ![Eureka](./images/1569296907678.png)
 
@@ -160,9 +160,49 @@ HttpClient，RestTemplate是一种更优雅的调用RESTful服务的方式。
 
   ![enableEurekaServer](./images/eureka启动流程.png)
 
-###  Ribbon
+###  负载均衡 Ribbon
+
+* **服务调用**
+
+基于Ribbon实现服务调用， 是通过拉取到的所有服务列表组成（服务名-请求路径的）映射关系。借助RestTemplate 最终进行调用  。
+
+* **负载均衡**
+![ribbon](./images/ribbon.png)
+
+当有多个服务提供者时，Ribbon可以根据负载均衡的算法自动的选择需要调用的服务地址。
+
+实战：
+
+设计一个负载均衡的场景？
+
+* **重试机制**
 
 
+
+* **源码**
+![ribbon源码](./images/1569422588184.png)
+
+
+
+
+
+### Consul
+
+![consul](./images/1569470458348.png)
+
+
+
+实战：
+
+
+
+### Feign组件
+
+
+
+
+
+### Hystrix组件
 
 
 
