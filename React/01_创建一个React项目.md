@@ -4,7 +4,7 @@
 - [Diff算法](#Diff算法)
 - [React项目的创建](#React项目的创建)
 - [JSX语法](#JSX语法)
-- [React中创建组件的方式](# React组件创建方式)
+- [React中创建组件的方式](#React组件创建方式)
 
   
 
