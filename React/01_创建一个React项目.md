@@ -4,7 +4,7 @@
 - [Diff算法](#Diff算法)
 - [React项目的创建](#React项目的创建)
 - [JSX语法](#JSX语法)
-- [ React 中创建组件的方式](# React 中创建组件的方式)
+- [React中创建组件的方式](# React组件创建方式)
 
   
 
@@ -195,7 +195,7 @@ ReactDom.render(<App></App>,document.getElementById("app"))
 
 
 
-####  React 中创建组件的方式
+####  React组件创建方式
 
 * 第一种基本组件的创建方式
  ``` javascript
