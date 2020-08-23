@@ -1,7 +1,14 @@
 ### React
-[TOC]
-####  React中几个核心的概念
-##### 虚拟DOM（Virtual Document Object Model）
+<!-- TOC -->
+- [虚拟DOM](#虚拟DOM)
+- [Diff算法](#Diff算法)
+- [React项目的创建](#React项目的创建)
+- [JSX语法](#JSX语法)
+- [ React 中创建组件的方式](# React 中创建组件的方式)
+
+  
+
+#### 虚拟DOM（Virtual Document Object Model）
  + DOM的本质是什么：就是用JS表示的UI元素（数据结构?）
  + DOM和虚拟DOM的区别：
    - DOM是由浏览器中的JS提供功能，所以我们只能人为的使用 浏览器提供的固定的API来操作DOM对象；
