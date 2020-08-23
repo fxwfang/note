@@ -1,7 +1,14 @@
 ### React
-[TOC]
-####  React中几个核心的概念
-##### 虚拟DOM（Virtual Document Object Model）
+<!-- TOC -->
+- [虚拟DOM](#虚拟DOM)
+- [Diff算法](#Diff算法)
+- [React项目的创建](#React项目的创建)
+- [JSX语法](#JSX语法)
+- [React中创建组件的方式](#React组件创建方式)
+
+  
+
+#### 虚拟DOM（Virtual Document Object Model）
  + DOM的本质是什么：就是用JS表示的UI元素（数据结构?）
  + DOM和虚拟DOM的区别：
    - DOM是由浏览器中的JS提供功能，所以我们只能人为的使用 浏览器提供的固定的API来操作DOM对象；
@@ -177,18 +184,31 @@ ReactDom.render(<App></App>,document.getElementById("app"))
 
 #### JSX语法
 
-1. 如要要使用 JSX 语法，必须先运行 `cnpm i babel-preset-react -D`，然后再 `.babelrc` 中添加 语法配置；
+1. 如要要使用 JSX 语法，必须先运行 `cnpm i babel-preset-react -D`，然后再 `.babelrc` 中添加 语法配置：
+``` javascript
+{
+    "presets": ["@babel/preset-env", "@babel/preset-react"]
+}
+```
+   
+
 2. JSX语法的本质：还是以 React.createElement 的形式来实现的，并没有直接把 用户写的 HTML代码，渲染到页面上；
+
 3. 如果要在 JSX 语法内部，书写 JS 代码了，那么，所有的JS代码，必须写到 {} 内部；
+
 4. 当 编译引擎，在编译JSX代码的时候，如果遇到了`<`那么就把它当作 HTML代码去编译，如果遇到了 `{}` 就把 花括号内部的代码当作 普通JS代码去编译；
+
 5. 在{}内部，可以写任何符合JS规范的代码；
+
 6. 在JSX中，如果要为元素添加`class`属性了，那么，必须写成`className`，因为 `class`在ES6中是一个关键字；和`class`类似，label标签的 `for` 属性需要替换为 `htmlFor`.
+
 7. 在JSX创建DOM的时候，所有的节点，必须有唯一的根元素进行包裹；
+
 8. 如果要写注释了，注释必须放到 {} 内部
 
 
 
-####  React 中创建组件的方式
+####  React组件创建方式
 
 * 第一种基本组件的创建方式
  ``` javascript

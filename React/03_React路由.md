@@ -2,6 +2,12 @@
 
 [toc]
 
+####  React-router-dom安装
+
+```javascript
+npm install react-router-dom --save-dev
+```
+
 #### 使用react-router-dom实现路由跳转
 
 + HashRouter：是一个路由的跟容器，一个应用程序中，一般只需要唯一的一个HashRouter容器即可！将来，所有的Route和Link都要在HashRouter中进行使用
@@ -29,8 +35,6 @@
 
 
 
-
-
 ## this.prop和Route的关系【重要】
 
-![this.props和路由参数之间的关系](./images/this.props和路由参数之间的关系.png)
+![props和路由参数之间的关系](./images/this.props和路由参数之间的关系.png)
