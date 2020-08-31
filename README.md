@@ -1,7 +1,14 @@
 ### ***学习总结***
 
 <!-- TOC -->
+
+- [ES6](#ES6)
 - [React](#React)
+
+#### ES6
+
+https://es6.ruanyifeng.com/#docs/let
+
 
 
 ####  React
@@ -17,4 +24,7 @@
 ##### 5. React中的组件创建方式
 
 ##### 6. React的组件生命周期
+
+##### 7. React路由
+
 
