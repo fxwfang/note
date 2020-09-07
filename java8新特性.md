@@ -81,6 +81,10 @@ https://www.javacodegeeks.com/2015/09/java-concurrency-essentials.html
 
 http://code.google.com/p/guava-libraries/
 
+Google Guava官方教程（中文版）：
+
+http://ifeve.com/google-guava/
+
 
 
 
@@ -93,6 +97,16 @@ https://www.jianshu.com/p/5b800057f2d8
 官网文档：
 
 https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html
+
+Java8初体验（一）lambda表达式语法：
+
+https://ifeve.com/lambda/
+
+Java8初体验（二）Stream语法详解：
+
+https://ifeve.com/stream/
+
+
 
 
 
