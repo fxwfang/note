@@ -1,13 +1,4 @@
-﻿Ctrl+ p  快速查找，跳转到文件Quick Open
-Alt + ←/→	返回/前进 Go back / forward
-F12  函数跳转(相当于Ctrl + 鼠标单击)
-Ctrl+B 隐藏掉左侧的菜单栏(切换侧边栏)
-Ctrl+J 切换面板
-Ctrl+k Ctrl+c 注释代码 add line comment
-Ctrl /  取消注释 toggle line comment
-Ctrl+ T  显示所有符号
-Ctrl+ALt+上下键   矩形选取
-Shitf + F12 查找所有引用
-Ctrl+HOME/END 跳转到头/尾
-Shitf + PgUp/PgDn 上下翻页 
-Ctrl+Shift+\	跳到匹配的括号 Jump to matching bracket
+
+
+
+

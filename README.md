@@ -1,30 +1,100 @@
-### ***学习总结***
+## ***学习总结***
 
-<!-- TOC -->
+------
 
-- [ES6](#ES6)
-- [React](#React)
+[toc]
 
-#### ES6
+### 常用软件快捷键
 
-https://es6.ruanyifeng.com/#docs/let
+- [x] [Typora快捷键](./快捷键.md)
 
+- [x] [Mac快捷键](./快捷键.md)
 
+### 知识技能
 
-####  React
+- [ ] Groovy
 
-##### 1.  虚拟DOM
+- [ ] Java
 
-##### 2. Diff算法
+- [ ] Javascript
 
-##### 3. React项目创建（webpack、babel、react）
+- [ ] Go
 
-##### 4. [JSX语法](./React/01_创建一个React项目.md)
+- [ ] MySQL
 
-##### 5. React中的组件创建方式
+- [ ] [Docker](./Docker.md)
 
-##### 6. React的组件生命周期
+- [ ] [学习路线图](./学习路线图.md)
 
-##### 7. React路由
+- [ ] [Nginx](./nginx.md)
 
+- [ ] Netty
+
+  
+
+### SpringCloud
+
+- [ ] [服务注册中心](./服务注册中心.md)
+  - [ ] Eureka(x)
+    - [ ] Eureka基础知识
+    - [ ] 单机Eukera构建
+    - [ ] 集群Eukera构建
+    - [ ] actuator微服务信息完善
+    - [ ] 服务发现Discovery
+    - [ ] Eureka自我保护
+  - [ ] Zookeerper
+    - [ ] 服务提供者
+    - [ ] 服务消费者
+  - [ ] Consul
+    - [ ] 服务提供者
+    - [ ] 服务消费者
+    - [ ] 
+  - [ ] Nacos
+- [ ] 服务调用
+  - [ ] Ribbon
+  - [ ] LoadBalancer
+  - [ ] Feign(x)
+  - [ ] OpenFeign
+- [ ] 服务降级
+  - [ ] Hystrix(x)
+  - [ ] resilience4j
+  - [ ] Sentinel
+- [ ] 服务网关
+  - [ ] Zuul(x)
+  - [ ] Zuul2
+  - [ ] gateway
+- [ ] 服务配置
+  - [ ] Config(x)
+  - [ ] Nacos
+- [ ] 服务总线
+  - [ ]  Bus(x)
+  - [ ] Nacos
+
+### 正则表达式
+
+- [ ] [正则表达式](./正则表达式.md)
+- [ ] awk
+- [ ] sed
+
+### 源码阅读
+
+- [ ] [Mybatis源码](./mybatis源码.md)
+  - [ ] 分页插件的分页实现原理
+  - [ ] sss
+- [ ] Spring源码
+  - [ ] Spring单例模式实现源码分析
+  - [ ] 
+
+### 面试
+
+- [ ] [面试题汇总](./面试题汇总.md)
+
+  - [ ] Java基础
+  - [ ]  
+
+- [ ] [牛客网](https://www.nowcoder.com/)
+
+- [ ] [Leetcode](https://leetcode-cn.com)
+
+  
 
