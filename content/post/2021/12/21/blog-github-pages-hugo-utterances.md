@@ -3,10 +3,10 @@ title: "GitHub Pages+ Hugo + even + Utterances搭建个人博客"
 date: 2021-12-21T17:02:58+08:00
 lastmod: 2021-12-21T17:02:58+08:00
 draft: false
-keywords: [hugo github pages even utterances]
+keywords: [hugo]
 description: "GitHub Pages+ Hugo + even + Utterances搭建个人博客"
-tags: [hugo, even, github pages, utterances]
-categories: [website]
+tags: [hugo]
+categories: [it]
 author: "jincheng9"
 
 # You can also close(false) or open(true) something for this content.

@@ -1,12 +1,12 @@
 ---
 title: "Hugo如何在markdown里引用本地图片"
-date: 2021-12-22T10:42:18+08:00
-lastmod: 2021-12-22T10:42:18+08:00
+date: 2021-12-21T10:42:18+08:00
+lastmod: 2021-12-21T10:42:18+08:00
 draft: false
 keywords: [hugo markdown 本地图片 local images]
 description: "Hugo如何在markdown里引用本地图片"
-tags: [hugo, markdown, images]
-categories: [website]
+tags: [hugo]
+categories: [it]
 author: "jincheng9"
 
 # You can also close(false) or open(true) something for this content.
